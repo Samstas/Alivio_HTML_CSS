@@ -1,0 +1,28 @@
+.btn, a.btn {
+    display: inline-block;
+    
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.btn-big, a.btn-big {
+    padding: 20px 50px;
+    min-height: 65px;
+}
+
+.btn-big:hover, a:hover {
+    opacity: 0.8;
+    color: #fff;
+}
