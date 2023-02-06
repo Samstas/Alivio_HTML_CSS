@@ -1,0 +1,34 @@
+.footer {
+    background-color: #245852;
+    padding: 105px 0 144px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-content {
+
+}
+
+.footer-logo {
+    margin-bottom: 74.5px;
+}
+
+.footer-nav {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.footer-nav li + li {
+    margin-top: 60px;
+}
+
+.footer-nav a {
+    transition: opacity 0.2s ease;
+}
+
+.footer-nav a:hover {
+    opacity: 0.8;
+}
